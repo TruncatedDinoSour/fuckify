@@ -11,7 +11,9 @@ fuckify ...command
 Or
 
 ```sh
-fuckify 'command"
+fuckify "command"
+# Same thing basically
+fuckify 'command'
 ```
 
 # Dependencies
