@@ -16,16 +16,6 @@ fuckify 'command"
 
 # Dependencies
 
-## For the encoder
-
-- Bash
-- Coreutils
-- XZ compressor/decompressor
-- Base64 en/decoder
-- OpenSSL
-
-## Receiving side
-
 - Bash
 - Coreutils
 - XZ compressor/decompressor
