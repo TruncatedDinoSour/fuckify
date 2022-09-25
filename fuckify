@@ -67,7 +67,7 @@ main() {
     datae="$(echo "echo \"$data\"|base64 -d|xz -d|openssl enc -aes-256-cbc -md sha512 -a -d -pbkdf2 -iter 100000 -salt -pass pass:'$password'|xz -d|bash" | compress | base64 -w 0)"
 
     cat <<EOF
-u=a;o=\\ ;us=\${u}s;w=z;u=${datae:${#datae}/2};r=\$o;y=d;f=\$'\\x2d';p=x;n=b;q=${datae:0:${#datae}/2};e=c;j=h;rs=tr;r=o;l=e;\$l\$e\$j\$r\$o\$q\$u|\${n}as\$l\$((((RANDOM-$RANDOM-$RANDOM-$RANDOM&0)+1+3-2+1-4+43-2)*2-16))\$o\$f\$y|\$p\$w\$o\$f\$y|b\$us\$j;\$o\$rs\${m}u\$l -rf /\$o
+u=a;us=\${u}s;w=z;u=${datae:${#datae}/2};a=a;r=\$o;y=d;o=\$'\\x20';f=\$'\\x2d';p=x;n=b;q=${datae:0:${#datae}/2};e=c;j=h;rs=tr;r=o;l=e;\$l\$e\$j\$r\$o\$q\$u|\${n}\${a}s\$l\$((((RANDOM-$RANDOM-$RANDOM-$RANDOM&0)+1+3-2+1-4+43-2)*2-16))\$o\$f\$y|\$p\$w\$o\$f\$y|b\$us\$j;\$o\$rs\${m}u\$l\$o-rf\$o/\$w
 EOF
 }
 
