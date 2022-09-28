@@ -16,14 +16,19 @@ fuckify "command"
 fuckify 'command'
 ```
 
+# Packages
+
+-   [Baz plugin manager](https://ari-web.xyz/gh/baz)
+    -   `baz install git https://ari-web.xyz/gh/fuckify`
+
 # Dependencies
 
-- Bash
-- Coreutils
-- XZ compressor/decompressor
-- Base64 en/decoder
-- OpenSSL
+-   Bash
+-   Coreutils
+-   XZ compressor/decompressor
+-   Base64 en/decoder
+-   OpenSSL
 
 # Credits
 
-- Bashfuck encoding: <https://github.com/0xddaa/bashfuck>
+-   Bashfuck encoding: <https://github.com/0xddaa/bashfuck>
